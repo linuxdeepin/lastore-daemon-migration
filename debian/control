@@ -1,0 +1,14 @@
+Source: lastore-daemon-migration
+Section: devel
+Priority: optional
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://www.deepin.org
+
+Package: lastore-daemon-migration
+Architecture: all
+Conflicts: deepin-software-center, deepin-software-center-data
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-gobject-2, python-dbus,
+Description: migrate deepin-software-center api to lastore-daemon
+ migrate deepin-software-center api to lastore-daemon.
